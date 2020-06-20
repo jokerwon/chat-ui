@@ -4,7 +4,7 @@ import avatar from "../../assets/images/avatar.jpg";
 import "../../story.css";
 
 export default {
-  title: "Avatar",
+  title: "UI组件/Avatar",
   compomemt: Avatar,
 };
 
