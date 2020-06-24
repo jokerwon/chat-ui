@@ -5,12 +5,12 @@ const sizeMap = {
   mini: "6px 24px",
   small: "8px 32px",
   large: "16px 64px",
-}
+};
 
 const StyledButton = styled.button`
-  padding: ${({size}) => sizeMap[size]};
+  padding: ${({ size }) => sizeMap[size]};
   font-size: 14px;
-  background-color: ${({color}) => color};
+  background-color: ${({ color }) => color};
   color: #ffffff;
   border: 0;
   outline: 0;
