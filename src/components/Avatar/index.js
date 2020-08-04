@@ -5,7 +5,7 @@ import StyledAvatar, { StatusIcon, AvatarClip, AvatarImage } from "./style";
 function Avatar({
   src,
   size = "48px",
-  status,
+  status,  // online | offline
   statusIconSize = "8px",
   ...rest
 }) {

@@ -30,6 +30,7 @@ const StatusIcon = styled.div`
     }}
   }
 `;
+// 头像蒙板
 const AvatarClip = styled.div`
   width: ${({size}) => size};
   height: ${({size}) => size};
